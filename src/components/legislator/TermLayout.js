@@ -14,7 +14,6 @@ const TermLayout = (props) => {
   const onTabClick = (active) => (e) => {
     e.preventDefault()
     setIsActive(active)
-    // setState({ active })
   }
 
   const hasSponsorship = props.data.sponsorship && props.data.sponsorship.length
